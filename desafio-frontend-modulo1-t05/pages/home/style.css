@@ -1,0 +1,117 @@
+:root{
+    --fontOne:'Ibarra Real Nova', serif;
+    --fontTwo:'Public Sans', sans-serif;
+
+    --color_cyan: #5FB4A2;
+    --color_Dblue: #203A4C;
+    --color_GDblue: #33323D;
+    --color_Lgray: #FAFAFA;
+    --color_gray: #818181;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--fontOne);
+    color: var(--color_GDblue);
+}
+
+
+#oi{
+    color: var(--color_cyan);
+}
+#whome{
+    color: var(--color_Lgray);
+}
+
+
+.i_m{
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.text_I{
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 50%;
+    margin-top: 25.5%;
+    align-items: center;
+    text-align: left;
+    padding: 2%;
+}
+.text_I h1{
+    font-size: 380%;
+    margin-bottom: 8%;
+    padding: 1%;
+}
+.button_I{
+    display: flex;
+    background-color: var(--color_Dblue);
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 65%;
+
+}
+.button_I:hover{
+    background-color: var(--color_cyan);
+}
+.button_I img{
+    background-color: rgb(0, 0, 0,0.4);
+    width: 25px;
+    height: 40%;
+    padding: 8.8%;
+    border-radius: 5px 0px 0px 5px;
+}
+.button_I a{
+    text-decoration: none;
+    color: var(--color_Lgray);
+    font-family: var(--fontTwo);
+    padding: 10%;
+}
+
+.upon{
+    display: flex;
+    background-color: var(--color_Lgray);
+    padding: 5%;
+    margin-top: 15%;
+    
+}
+.upon img{
+    width: 120%;
+    height: 150%;
+}
+.informs{
+    border-top: 2px solid rgb(218, 217, 217);
+    width: 100%;
+    padding-top: 3%;
+    margin-left: 6%;
+}
+.informs h1{
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+.informs p{
+    font-family: var(--fontTwo);
+    font-size: 100%;
+    line-height: 240%;
+    margin-bottom: 10%;
+    word-spacing: 160%;
+}
+.informs a{
+    text-decoration: none;
+    padding: 4% 10%;
+    color: var(--color_GDblue);
+    margin-left: 26%;
+    border: 2px solid var(--color_GDblue);
+    font-family: var(--fontTwo);
+    word-spacing: 300%;
+}
+.informs a:hover{
+    background-color: var(--color_GDblue);
+    color: var(--color_Lgray);
+}

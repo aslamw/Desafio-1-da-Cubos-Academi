@@ -1,0 +1,92 @@
+:root{
+    --fontOne:'Ibarra Real Nova', serif;
+    --fontTwo:'Public Sans', sans-serif;
+
+    --color_cyan: #5FB4A2;
+    --color_Dblue: #203A4C;
+    --color_GDblue: #33323D;
+    --color_Lgray: #FAFAFA;
+    --color_gray: #818181;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+body{
+    font-family: var(--fontOne);
+    color: var(--color_GDblue);
+}
+
+#contatoW{
+    color: var(--color_cyan);
+}
+#contatoB{
+    color: var(--color_Lgray);
+}
+
+
+.informs{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 5%;
+    height: 200%;
+    width: 80%;
+}
+.informs h1{
+    margin-right: 15%;
+    font-size: 250%;
+    width: 300%;
+
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontTwo);
+}
+.bloco-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 5%;
+}
+
+
+.contact{
+    display: flex;
+    margin-bottom: 10%;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.bloco label{
+    margin-bottom: 2%;
+}
+.bloco input{
+    background-color: rgb(231, 228, 228);
+    border: none;
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+#mess{
+    background-color: rgb(231, 228, 228);
+    border: none;
+    margin-bottom: 6%;
+    font-size: 15px;
+}
+.bloco button{
+    width: 30%;
+    padding: 2%;
+    background-color: var(--color_Dblue);
+    color: var(--color_Lgray);
+    transition: 0.2s;
+}
+.bloco button:active{
+    background-color: var(--color_cyan);
+}

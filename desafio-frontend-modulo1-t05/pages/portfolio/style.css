@@ -1,0 +1,67 @@
+:root{
+    --fontOne:'Ibarra Real Nova', serif;
+    --fontTwo:'Public Sans', sans-serif;
+
+    --color_cyan: #5FB4A2;
+    --color_Dblue: #203A4C;
+    --color_GDblue: #33323D;
+    --color_Lgray: #FAFAFA;
+    --color_gray: #818181;
+}
+
+#portifolioU{
+    color: var(--color_cyan);
+}
+#portifolioW{
+    color: var(--color_Lgray);
+}
+
+
+.left{
+    display: flex;
+    margin-top: 4%;
+    padding: 5%;
+}
+.left img{
+    width: 300%;
+    margin-right: 5%;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 8% 6%;
+    border-top: 2px solid rgb(223, 223, 223);
+}
+.bloco h1{
+    font-size: 200%;
+    margin-bottom: 15%;
+}
+.bloco p{
+    font-size: 160%;
+    line-height: 140%;
+    font-family: var(--fontTwo);
+    margin-bottom: 10%;
+}
+.bloco a{
+    text-decoration: none;
+    color: var(--color_GDblue);
+    border: 2px solid var(--color_GDblue);
+    padding: 5%;
+    text-align: center;
+    width: 50%;
+}
+.bloco a:hover {
+    background-color: var(--color_GDblue);
+    color: var(--color_Lgray);
+}
+
+.rigth{
+    display: flex;
+    margin-top: 4%;
+    padding: 5%;
+}
+.rigth img{
+    width: 300%;
+    margin-left: 5%;
+}

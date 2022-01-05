@@ -1,0 +1,100 @@
+:root{
+    --fontOne:'Ibarra Real Nova', serif;
+    --fontTwo:'Public Sans', sans-serif;
+
+    --color_cyan: #5FB4A2;
+    --color_Dblue: #203A4C;
+    --color_GDblue: #33323D;
+    --color_Lgray: #FAFAFA;
+    --color_gray: #818181;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+body{
+    font-family: var(--fontOne);
+    color: var(--color_GDblue);
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    width: 100%;
+    font-family: var(--fontTwo);
+}
+header a{
+    margin-right: 20%;
+}
+.header_pages{
+    display: flex;
+    margin: 0 auto;
+    margin-right: 10%;
+}
+.header_pages a{
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--color_GDblue);
+}
+.header_pages a:hover{
+    color: var(--color_cyan);
+}
+
+.contact{
+    display: flex;
+    padding: 6%;
+    margin-bottom: 4;
+}
+.contact h1{
+    margin-right: 40%;
+    font-size: 300%;
+}
+.contact a{
+    text-align: center;
+    text-decoration: none;
+    color: var(--color_GDblue);
+    border: 2px solid var(--color_GDblue);
+    padding: 2% 6%;
+    height: 30%;
+}
+.contact a:hover{
+    background-color: var(--color_GDblue);
+    color: var(--color_Lgray);
+}
+
+footer{
+    display: flex;
+    background-color: var(--color_GDblue);
+    font-family: var(--fontTwo);
+    padding: 0.8% 3%;
+    height: 100%;
+}
+footer a{
+    margin-right: 5%;
+}
+.footer_pages{
+    display: flex;
+    margin-right: 67%;
+}
+.footer_pages a{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--color_gray);
+}
+.footer_pages a:hover{
+    color: var(--color_Lgray);
+}
+.links{
+    display: flex;
+    margin-top: 10px;
+}
+.links a{
+    margin-left: 10px;
+}
